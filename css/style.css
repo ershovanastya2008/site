@@ -52,6 +52,16 @@ a{
     text-decoration: none;
     font-size: 14px;
 }
+.btn-a{
+    min-height: 10px; 
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--color-white);
+    background-color: var(--color-accent);
+    border-radius: 8px;
+    padding: 8px 20px;
+    border:none;
+}
 /*Шапка*/
 header {
     position: sticky;
@@ -63,6 +73,7 @@ header {
     box-sizing: border-box;
     z-index: 100;
 }
+
 header .container {
     display: flex;
     justify-content: space-between;
@@ -74,23 +85,12 @@ nav a {
     margin-left: 20px;
     font-size: 15px;
 }
-.theme{
-    width: 150px;
-    min-height: 30px; 
-}
 .authorName
 {
     font-size: 18px;
     font-weight: bold;
 }
 /*Приветствие*/
-.contactMe{
-    width: 200px;
-    min-height: 30px; 
-}
-.btn-a{
-    color:#ffffff;
-}
 .circleImg
 {
     width:250px;
