@@ -88,6 +88,9 @@ nav a {
     width: 200px;
     min-height: 30px; 
 }
+.btn-a{
+    color:#ffffff;
+}
 .circleImg
 {
     width:250px;
