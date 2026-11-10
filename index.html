@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>НЯняНЯняНЯ</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+        <div class="authorName">
+            Анастасия Ершова
+        </div>
+        <nav>
+            <a href="#about">Обо мне</a>
+            <a href="#project"> Проекты</a>
+            <a href="#contacts"> Контакты</a>
+        </nav>
+        <button class="theme" >Смена темы</button>
+        </div>
+    </header>
+    <main>
+        <section class="Greeting">
+            <div class="container">
+            <div class="Greet-all">
+                <p class="VisitGreeting">Привет, я</p>
+                <h1 class="VisitAuthorName">Анастасия Ершова</h1>
+                <p class="visitRole"> Студентка специальности "Информационные системы и программирование"</p>
+                <p class="visitText"> Верстаю адаптивные сайты, изучаю JavaScript и развиваюсь в веб-разработке</p>
+                <button class="contactMe">Связаться со мной</button>
+            </div>
+            <img src="img/avatar.jpg" alt="Мое фото" class="circleImg">
+            </div>
+        </section>
+        <section id="about" class="about">
+            <div class="container">
+            <div>
+                <h2 class="title-with-line">Обо мне</h2>
+                <p class="about-text">Меня зовут Анастасия. Я обучаюсь на 3 курсе специальности "Информационные системы и программирование". Увлекаюсь веб-разработкой: изучаю html, css, JavaScript, участвую в учебных проектах.</p>
+                <p class="about-text">Цель - стать фронтенд-разработчиком и создавать удобные и доступные интерфейсы. Люблю аккуратную верстку, чистый код и внимание к деталям.</p>
+            </div>
+            <div>
+                <h3>Навыки</h3>
+                <div class="skill-div">
+                    <p class="skill-p">HTML</p>
+                    <p class="skill-p">CSS</p>
+                    <p class="skill-p">JavaScript</p>
+                    <p class="skill-p">Git</p>
+                    <p class="skill-p">Figma</p>
+                    <p class="skill-p">С++</p>
+                    <p class="skill-p">С#</p>
+                    <p class="skill-p">Адаптивная верстка</p>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section id="project" class="project-section">
+            <div class="container">
+            <h2 class="title-with-line">Проекты</h2>
+            <div class="project-div">
+            <article class="project-card">
+                <img src="img/Coffee.png" alt="Лендинг кофейни" class="photo-card">
+                <h3>Лендинг кофейни</h3>
+                <div class="card-content">
+                    <p>Одностраниный сайт с адаптивной версткой и формой заказа. </p>
+                    <a href="#">Смотреть →</a>
+                </div>
+            </article>
+            <article class="project-card">
+                <img src="img/library.png" alt="Каталог книг" class="photo-card">
+                <h3>Каталог книг</h3>
+                <div class="card-content">
+                    <p>Карточки книг с фильтрацией по жанру и поиском. </p>
+                    <a href="#">Смотреть →</a>
+                </div>
+            </article>
+            <article class="project-card">
+                <img src="img/calculator.png" alt="Веб-калькулятор" class="photo-card">
+                <h3>Веб-калькулятор</h3>
+                <div class="card-content">
+                    <p>Калькултяор на JavaScript с историей вычислений. </p>
+                    <a href="#">Смотреть →</a>
+                </div>
+            </article>
+            <article class="project-card">
+                <img src="img/portfolio.png" alt="Портфолио" class="photo-card">
+                <h3>Портфолио</h3>
+                <div class="card-content">
+                    <p>Данный сайт: адаптивная верстка, темная тема, бургер-меню. </p>
+                    <a href="#">Смотреть →</a>
+                </div>
+            </article>
+            </div>
+            </div>
+        </section>
+         <section id="contacts">
+            <div class="container">
+                <div class="contacts-layout">
+                    <div class="contacts-info">
+                        <h2 class="title-with-line">Контакты</h2>
+                        <p class="contacts-text">Есть вопрос или предложение? Напишите мне - я отвечу в ближайшее время.</p>
+                        <a href="https://vk.ru/mkhzw"><b>VK</b></a>
+                    </div>
+                    <div class="contacts-form-wrapper">
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Имя</label>
+                                <input type="text" name="name" id="name" placeholder="Ваше имя" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">E-mail</label>
+                                <input type="email" name="email" id="email" placeholder="you@example.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Сообщение</label>
+                                <!-- Заменил input на textarea для правильного отображения многострочного текста -->
+                                <textarea name="message" id="message" placeholder="Ваше сообщение" rows="4" required></textarea>
+                            </div>
+                            <button type="submit">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+        <p>© Анастасия Ершова. Все права защищены.</p>
+        <a href="#">Политика конфиденциальности</a>
+        </div>
+    </footer>
+</body>
+</html>
